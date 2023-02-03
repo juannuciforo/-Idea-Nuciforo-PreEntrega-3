@@ -70,8 +70,8 @@ const mostrarPersonas = () => {
             <td>${p.rol}</td>
             <td>${p.nombre}</td>
             <td>${p.edad}</td>
-            <td><button class="btn-edit btn btn-info" id="${p.nombre}">Editar</button></td>
-            <td><button class="btn-delete btn btn-danger" id="${p.nombre}">Borrar</button></td>
+            <td><button class="btn-edit btn btn-info" id="${p.nombre}">Editar</button>
+            <button class="btn-delete btn btn-danger" id="${p.nombre}">Borrar</button></td>
         `;
         tableBody.appendChild(tr);
     })
