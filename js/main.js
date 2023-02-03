@@ -83,7 +83,8 @@ const mostrarPersonas = () => {
     //CONST DE BTN QUE SABE CUAL ES EL ID DEL ELEMENTO SELECCIONADO Y DISPARA EL DELETE}
     const btnDelete = document.querySelectorAll('.btn-delete'); //NodeList = []
     btnDelete.forEach( btn => btn.addEventListener('click', borrarRegistroUI));
-
+    listaEsVisible();
+    botonBorradoListaEsVisible();
 };
 
 document.addEventListener('DOMContentLoaded', mostrarPersonas);
