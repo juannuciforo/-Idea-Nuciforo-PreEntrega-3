@@ -116,8 +116,6 @@ function borrarRegistroUI(e){
     personas.splice(indice, 1);
     localStorage.setItem('personas', JSON.stringify(personas));
 
-
-    localStorage.setItem('personas', JSON.stringify(personas));
     mostrarPersonas();
 }
 
